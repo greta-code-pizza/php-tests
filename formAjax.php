@@ -45,7 +45,7 @@
 
           setTimeout(function () {
             message.classList = "out";
-          }, 3s000);
+          }, 3000);
         }
       })
       .catch(error => console.error('Error:', error));
