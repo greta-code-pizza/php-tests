@@ -1,0 +1,13 @@
+#message {
+  background-color: #e83c61;
+  color: #FFF;
+  font-family: sans-serif;
+  transition:.6s opacity;
+}
+#message.out {
+  opacity:0;
+  transition:.6s all;
+}
+#message.in {
+  opacity:1;
+}
