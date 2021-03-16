@@ -43,6 +43,7 @@
           let message = document.querySelector("#message");
           message.classList = "in";
 
+          // Déclenchement au bout de 3s
           setTimeout(function () {
             message.classList = "out";
           }, 3000);
